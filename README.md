@@ -1,32 +1,33 @@
 # Astrox Imperium — Patch français communautaire
 
-Traduction non officielle, principalement automatique, pour Astrox Imperium **b0.0159**.
+Traduction non officielle pour Astrox Imperium **b0.0159**, avec moteur hors ligne inclus.
 
-Menus, quêtes, objets, marché, compétences, dialogues et tutoriels sont traduits lorsque leurs composants de texte sont détectés. Le moteur hors ligne est inclus, avec des ajustements pour limiter les débordements de texte.
+## Télécharger la version 1.2.0
 
-## Télécharger
+[Télécharger le patch français 1.2.0](https://github.com/Asmodyel/Astrox-Imperium--Patch-FR/releases/tag/v1.2.0)
 
-[Télécharger le patch et consulter les versions](https://github.com/Asmodyel/Astrox-Imperium--Patch-FR/releases)
+Dans **Assets**, choisissez **Astrox-Francais-1.2.0-Communaute.zip**. Les archives « Source code » ne contiennent pas l’installateur. La version 1.2.0 remplace la 1.1.0 et reste en bêta.
 
-Dans les fichiers de la version, choisissez **Astrox-Francais-1.1.0-Communaute.zip**. Les archives « Source code » générées par GitHub ne contiennent pas l’installateur.
+## Corrections
+
+Les 169 textes des neuf tutoriels ont été réécrits. Les noms de 995 objets et des 135 compétences ont été harmonisés, ainsi que de nombreux libellés et titres de missions. Le moteur reconnaît mieux les dialogues complets et sauvegarde l’ancien cache lors de l’installation.
+
+**2 191 textes relus ou harmonisés sur 5 473 textes sources contrôlés.** Les autres passages utilisent encore une traduction automatique et peuvent contenir des maladresses. La vérification visuelle exhaustive reste à faire.
 
 ## Installation
 
-1. Installez le jeu dans le dossier Steam par défaut :
-   `C:\Program Files (x86)\Steam\steamapps\common\Astrox Imperium`
+1. Installez le jeu dans le dossier Steam par défaut : `C:\Program Files (x86)\Steam\steamapps\common\Astrox Imperium`.
 2. Fermez complètement le jeu.
-3. Décompressez l’archive et lisez `NOTICE.txt`.
-4. Lancez `Installer-Astrox-Francais-1.1.0.exe` avec les droits administrateur nécessaires.
+3. Pour une mise à jour depuis la 1.1.0, désinstallez d’abord l’ancien patch avec le désinstallateur du dossier `AstroxFrancais`.
+4. Extrayez le ZIP, lisez `NOTICE.txt` et lancez `Installer-Astrox-Francais-1.2.0.exe` avec les droits administrateur nécessaires.
 5. Lancez le jeu depuis Steam.
 
-Windows 10/11 64 bits. Python et le modèle de traduction sont inclus. L’exécutable n’est pas signé commercialement. Un désinstallateur est fourni dans le dossier `AstroxFrancais` du jeu.
+Windows 10/11 64 bits. Python et le modèle sont inclus. Les sauvegardes du jeu sont conservées. Les bibliothèques Steam personnalisées ne sont pas prises en charge par cet installateur.
 
 ## Limites et retours
 
-Première édition communautaire en bêta : la traduction n’a pas été intégralement relue. Les voix, textes intégrés aux images et certains textes non détectés restent inchangés. Les futures mises à jour du jeu peuvent nécessiter une adaptation.
+Les voix, textes intégrés aux images et certains textes non détectés restent inchangés. Une mise à jour du jeu peut nécessiter une adaptation du patch. Toutes les résolutions et tous les textes dynamiques ne sont pas garantis.
 
-Les principaux écrans ont été contrôlés en 1920 × 1080 ; toutes les résolutions et tous les textes dynamiques ne sont pas garantis. Évitez Alt + R si ce raccourci active aussi les statistiques NVIDIA : redémarrer le jeu recharge les traductions.
+Signalez les erreurs dans les **Issues**, avec une capture, la version du jeu, la résolution et le panneau concerné.
 
-Signalez les erreurs de traduction et d’affichage dans les **Issues**, en précisant la version du jeu, la résolution et le panneau concerné.
-
-Ce projet n’est ni officiel ni affilié au développeur d’Astrox Imperium. Conservez les notices et licences incluses lors du partage.
+Patch non officiel, sans affiliation au développeur. Conservez les notices et licences incluses lors du partage.
